@@ -46,8 +46,8 @@ body {
     margin-bottom: 10px;
   }
   .image .profile-img {
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     object-fit: cover;
     border-radius: 50%;
     border: none #fff;
@@ -64,16 +64,17 @@ body {
     
     
   .text-data .name{
-    font-size: 100%;
+    font-size: 25px;
     font-weight: 200;
     font-style: italic;
-    transform: rotate(-5deg);
+    display: inline-block;
+    transform: rotate(-10deg);
   }
   .text-data .job{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     max-height: 30%;
-    line-height: 3.0;
+    line-height: 6.0;
   }
 
   .media-button .link {
@@ -92,7 +93,9 @@ body {
     
     .about-me{
       text-align: center;
-      line-height: 5.0;  
+      line-height: 5.0; 
+      font-weight: lighter; 
+      font-size: 30px;
     }
     .text-area{
       display: flex;
@@ -100,21 +103,31 @@ body {
    
      .information{
     font-size: 15px;
-    font-weight: 600;
-    line-height: 2.0;
-      width: 50%;   
-    
-  }
-  .span{
-    letter-spacing: 2px;
+    line-height: 4.0;
+      width: 45%;
+    display: inline;
     font-size: 20px;
     font-weight: 100;
-    padding: 15px;
+    padding: 15px;   
+    
+  }
+  .information p{
+    font-weight: bolder;
+  }
+  .span{
+    margin-left: 50px;
+    font-weight: lighter;
+    white-space: nowrap;
+    
+  }
+  .hel {
+    font-size: 30px;
+    line-height: 3.0;
   }
   .hello{
-     width: 50%;     
+     width: 60%;     
      letter-spacing: 1px;
-     letter-spacing: 1px;
+     line-height: 2.0;
 
   }
   .arrow{
@@ -124,13 +137,12 @@ body {
     align-items: flex-end;
     
     text-decoration: none;
-    color: #161515;
+    color: white;
     
     margin: 0 5px;
     padding: 2px;
     font-size: 50px;
     font-weight: 400;
-    border-radius: 5px;
     padding: 2px;
     
     
@@ -139,27 +151,32 @@ body {
     transition: all 0 3s ease
     
   }
-  .footer .lin{
+  .social .lin{
 
-    /* display: flex;
-    flex-direction: column;  */
-    
-    
-     align-items: center;
-    justify-content: center;
      color: white;
-    font-size: 20px;
+     background: black;
     font-weight: 400;
-    border: none;
-    border-radius: none;
-    margin: 0 5px;
-    padding:  2px;
-    background-color: black;
+    margin: 0 10px;
+    padding:  5px;
+   
     cursor: pointer;
-    transition: all 0 3s ease;
     text-decoration: none;
+    line-height: 4.0;
     }
-     
+    .arrow .bx {
+      background: black;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 0px;
+      
+    }
+    footer {
+      text-align: center;
+      margin-top: 10px;
+      padding: 5px 10px 5px 10px;
+  
+      
+    }
     
 
   
